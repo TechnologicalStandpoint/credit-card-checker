@@ -105,12 +105,17 @@ function idInvalidCardCompanies(invalidCards) {
   }
 }
 
+function convertStringToArray(creditCard) {
+    return creditCard.split('')
+}
+
 console.log(validateCred(valid1));
 console.log(validateCred(valid2));
 console.log(validateCred(valid3));
 console.log(validateCred(valid4));
 console.log(validateCred(valid5));
 
+console.log(convertStringToArray('123456789'))
 
 
 
